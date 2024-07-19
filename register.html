@@ -15,45 +15,55 @@
         <form action="#">
             <div class="user-details">
                 <div class="input-box">
-                    <span class="details">Full Name</span>
+                    <span class="details">Full name</span>
                     <i class="fa-solid fa-user"></i>
-                    <input type="text" placeholder="Enter name" required>
+                    <input type="text" placeholder="Enter name" required id="name">
+                    <div class="error" id="nameError"></div>
                 </div>
+                
 
                 <div class="input-box">
                     <span class="details">Username</span>
                     <i class="fa-regular fa-user"></i>
-                    <input type="text" placeholder="Enter username" required>
+                    <input type="text" placeholder="Enter username" required id="username">
+                    <div class="error" id="usernameError"></div>
                 </div>
+                
 
                 <div class="input-box">
                     <span class="details">Email</span>
                     <i class="fa-solid fa-envelope"></i>
-                    <input type="email" placeholder="Enter email" required>
-                    
+                    <input type="email" placeholder="Enter email" required id="email">
+                    <div class="error" id="emailError"></div>
                 </div>
 
                 <div class="input-box">
-                    <span class="details">Phone Number</span>
+                    <span class="details">Phone number</span>
                     <i class="fa-solid fa-phone"></i>
-                    <input type="tel" placeholder="Enter Phone Number" required>
+                    <input type="tel" placeholder="Enter Phone Number" required id="phone">
+                    <div class="error" id="phoneError"></div>
                 </div>
+                
 
                 <div class="input-box">
-                    <span class="details">Date Of Birth</span>
+                    <span class="details">Date Of birth</span>
                     <i class="fa-solid fa-calendar-days"></i>
-                    <input type="date" placeholder="Enter Date of Birth" required>
+                    <input type="date" placeholder="Enter Date of Birth" required id="dob">
+                    <div class="error" id="dobError"></div>
                 </div>
 
                 <div class="input-box">
                     <span class="details">Age</span>
-                    <input type="number" placeholder="Enter Age" required>
+                    <input type="number" placeholder="Enter Age" required id="age">
+                    <div class="error" id="ageError"></div>
                 </div>
+                
 
                 <div class="input-box">
                     <span class="details">Password</span>
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder="Enter Password" required>
+                    <input type="password" placeholder="Enter Password" required id="password">
+                    <div class="error" id="passwordError"></div>
                 </div>
             </div>
 
@@ -78,13 +88,16 @@
                         <span class="male">Prefer not to say</span>
                     </label>
                 </div>
-                <div class="button">
-                    <input type="submit" value="Register">
-                </div>
+                <button class="button">
+                    <span>Register</span>
+                </button><br>
                 <a href="login.html">have an Account? Login</a><br>
                 <a href="index.html">Home</a>
             </div>
         </form>
-    </div>    
+    </div>
+    <script src="./js/validation.js">
+
+    </script>
 </body>
 </html>

@@ -3,6 +3,27 @@
     padding: 0px;
     box-sizing: border-box;
 }
+nav{
+    background: #000000;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
 .about{
     background-color: #bb9c9c;
     overflow: hidden;
@@ -11,7 +32,7 @@
     color: #000000;
     font-size: 55px;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 .container{
     display: flex;
@@ -48,7 +69,7 @@
 }
 footer{
     text-align: center;
-    padding: 3px;
+    padding: 10px;
     background-color: #000000;
     color: #fff;
 }

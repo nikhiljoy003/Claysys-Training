@@ -9,7 +9,10 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background: url("img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -85,11 +88,7 @@ form input[type="radio"]{
 }
 form .button{
     height: 45px;
-    margin: 45px 0;
-}
-form .button input{
-    height: 100%;
-    width: 100%;
+    width: 45px 0;
     outline: none;
     color: #fff;
     border: none;
